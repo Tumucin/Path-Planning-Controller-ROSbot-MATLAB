@@ -47,7 +47,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+This project aims to generate a path for given a sets of waypoints when there is a obstacle along the path and follow the generated path using controlling algorithm for [ROSbot 2](https://husarion.com/manuals/rosbot/). It consists of 2 parts called "CONTROLLER" and "PATH PLANNING". 
 <br />
 <div align="center">
   <a href="https://developers.google.com/ar/develop/fundamentals#motion_tracking">
