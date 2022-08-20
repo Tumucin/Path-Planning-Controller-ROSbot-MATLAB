@@ -70,9 +70,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This project was made by using Android Studio Chipmunk | 2021.2.1, ARcore 1.32.0 on Ubuntu 18.04 and tested with Huawei Mate 20 Lite (Android 10, API Level: 29).
-The goal of this project is to estimate the current 3 DoF position + 3 DoF orientation of the device using ARcore Motion Tracking(VIO) API and to save the IMU(accelerometer, gyroscope) and pose(VIO output) data to ".csv" file. 
-<!-- PROJECT LOGO -->
+
 <br />
 <div align="center">
   <a href="https://developers.google.com/ar/develop/fundamentals#motion_tracking">
@@ -83,50 +81,14 @@ The goal of this project is to estimate the current 3 DoF position + 3 DoF orien
   </p>
 </div>
 
-As your phone moves through the world, ARCore uses a process called simultaneous localization and mapping, or SLAM, to understand where the phone is relative to the world around it. ARCore detects visually distinct features in the captured camera image called feature points and uses these points to compute its change in location. The visual information is combined with inertial measurements from the device's IMU to estimate the pose (position and orientation) of the camera relative to the world over time.
-
-By aligning the pose of the virtual camera that renders your 3D content with the pose of the device's camera provided by ARCore, developers are able to render virtual content from the correct perspective. The rendered virtual image can be overlaid on top of the image obtained from the device's camera, making it appear as if the virtual content is part of the real world.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 ## Controller
 ### Longitudinal Controller
 ### Lateral Controller
 #### Kinematic Model
-
 ## Path Planning with Obstacle Avoidance
-In this secion, I am going to descrice how we can use this mobile application on our Android devices to make everything clear. So that you can easily understand and use for your applications.
-
-
-When you first start the application, you will see some VIO states such as 6Dof pose, rate, timestamp and the time passed. And you will see "VIOArFileName" and "IMUFileName" EditText which you can write the names of the files in terms of encoded numbers. There is no information about IMU yet. And there will be 3 different buttons for recording, saving the datas and restarting the application.
-<div align="center">
-    <img src="images/Figure1.png" alt="Logo" width="350" height="400">
-  </a>
-  <p align="center">
-    Figure 1
-  </p>
-</div>
-Since the goal of this application is to save the IMU and VIO data, we should give the names of the files to be recorded to Edit Text. For example I wrote "301" to "VIOArFileName" and "IMUFileName". After that we click the "STARTRECORDING" button. After clicking the button, you will see a message says "...csv and ...csv are created!!!". And that button becomes disabled automatically as we can see from figure 2. At this stage, we can now see the information about Accelerometer and Gyroscope on the screen.
-
-<div align="center">
-    <img src="images/Figure2.png" alt="Logo" width="350" height="400">
-  </a>
-  <p align="center">
-    Figure 2
-  </p>
-</div>
-
-If you want to save the IMU and VIO data to a file, all you need to do is to press the "SAVEIMUVIO" button. You will see a message says " ...csv and ...csv are saved!!!"
-
-In order to get the files from the Android phone, you can open Android Studio -->Device File Explorer --> data/data/nameofTheProject/files as we can see from figure 3. 
-<div align="center">
-    <img src="images/Figure3.png" alt="Logo" width="700" height="400">
-  </a>
-  <p align="center">
-    Figure 3
-  </p>
-</div>
 
 <!-- LICENSE -->
 ## License
@@ -134,7 +96,6 @@ In order to get the files from the Android phone, you can open Android Studio --
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- CONTACT -->
 ## Contact
@@ -144,8 +105,6 @@ Tumucin : baltumucin34@gmail.com
 Project Link: [Arcore - Motion - Tracking](https://github.com/Tumucin/Arcore-Motion-Tracking)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -159,8 +118,6 @@ You can check out the resources that I find very useful.
 * [The Template that this project uses.](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
