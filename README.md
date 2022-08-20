@@ -59,6 +59,7 @@
           </ul>
       </ul>
     </li>
+    <li><a href="#path-planning-with-obstacle-avoidance">Path-Planning-with-Obstacle-Avoidance</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -93,6 +94,8 @@ By aligning the pose of the virtual camera that renders your 3D content with the
 ### Longitudinal Controller
 ### Lateral Controller
 #### Kinematic Model
+
+## Path Planning with Obstacle Avoidance
 In this secion, I am going to descrice how we can use this mobile application on our Android devices to make everything clear. So that you can easily understand and use for your applications.
 
 
