@@ -50,7 +50,7 @@
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
-      <a href="#controller">Getting Started</a>
+      <a href="#controller">Controller</a>
       <ul>
         <li><a href="#longitudinal-controller">Longitudinal Controller</a></li>
         <li><a href="#lateral-controller">Lateral Controller</a></li>
@@ -87,7 +87,8 @@ By aligning the pose of the virtual camera that renders your 3D content with the
 
 <!-- GETTING STARTED -->
 ## Controller
-
+### Longitudinal Controller
+### Lateral Controller
 In this secion, I am going to descrice how we can use this mobile application on our Android devices to make everything clear. So that you can easily understand and use for your applications.
 
 
