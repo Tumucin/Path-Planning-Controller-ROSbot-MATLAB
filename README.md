@@ -52,8 +52,8 @@
     <li>
       <a href="#controller">Getting Started</a>
       <ul>
-        <li><a href="#longitudinal-controller">Prerequisites</a></li>
-        <li><a href="#lateral-controller">Installation</a></li>
+        <li><a href="#longitudinal-controller">Longitudinal Controller</a></li>
+        <li><a href="#lateral-controller">Lateral Controller</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
