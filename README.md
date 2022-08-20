@@ -50,19 +50,37 @@
 This project aims to generate a path for given a sets of 2D waypoints when there is a obstacle along the path and follow the generated path using controlling algorithm for [ROSbot 2](https://husarion.com/manuals/rosbot/). For example when the algorithm is given a sets of waypoints in 2D, it generates a GLOBAL path between these waypoints and creates a LOCAL path at each time step using "LOOKAHEAD" distance. And then it follows the generated local path. It consists of 2 parts called "CONTROLLER" and "PATH PLANNING". In the following sections, I am going to describe the details of the algorithm so that you can easily understand and use it for your applications.
 <br />
 <div align="center">
-  <a href="https://developers.google.com/ar/develop/fundamentals#motion_tracking">
-    <img src="images/MotionTracking.png" alt="Logo" width="700" height="400">
+  <a href="https://github.com/Tumucin/Path-Planning-Controller-ROSbot-MATLAB">
+    <img src="images/Figure1.png" alt="Logo" width="700" height="400">
   </a>
   <p align="center">
-    Motion Tracking Visualization
+    Result
   </p>
 </div>
-
+As we can from Figure 1, there are several waypoints which we give them to algorithm as an inputs. The time algorithm takes the inputs from the user, it creates a path. Reference Global path can be seen in range color. And ROSbot starts it motion at (2, 0) point. And then starts to follow the path using control algorithms. One of the most important thing here is that there is an obstacle at (6, 0). And the algorithm uses that information to pass near the obstacle.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Controller
+You can read the full report of CONTROLLER task. [REPORT](https://drive.google.com/drive/u/1/folders/1hVpCoH-6AStXR6jbHeMdJpH4t_2Ol69Y)
+First main subsystem of the whole algorithm is "CONTROLLER" part. It consists of 2 componenets. First one is "Longitudional Controller" and the second one is "Lateral Controller". Longitudional Controller basically controls the linear speed of the ROSbot while Lateral Controller controls the steering angle of the ROSbot to follow the generated path in a smooth way. You can find the DC motor which was used in this project by clicking [here](https://husarion.com/manuals/rosbot/). In the following parts, I will give more informations about "Lateral" and "Longitudional" controller.
 ### Longitudinal Controller
+The main goal of "Longitudional Controller" is to control the angular velocity of the DC motor for a given reference angular velocity. And the controller is designed according to the following characteristics.
+- Zero steady-state error
+- Settling time= 3.5 seconds
+- No overshoot
+Figure 2 shows the main block diagram of this controller.
+<br />
+<div align="center">
+  <a href="https://github.com/Tumucin/Path-Planning-Controller-ROSbot-MATLAB">
+    <img src="images/Figure2.png" alt="Logo" width="700" height="400">
+  </a>
+  <p align="center">
+    Block Diagram of Longitudional Controller
+  </p>
+</div>
+
+To make it simplier, I converted angular velocity to linear velocity. So when we give 1 to this controlling algorithm as an input, the velocity of ROSbot become 1m/s. You can set different values of velocity by channing "RefLongVel" variable in MotionPlanningv15.slx-->CONTROL-PATH-->RefLongVel
 ### Lateral Controller
 #### Kinematic Model
 ## Path Planning with Obstacle Avoidance
