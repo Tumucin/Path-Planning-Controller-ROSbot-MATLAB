@@ -123,6 +123,7 @@ And for this project "BICYCLE MODEL" was used. Figure 5 shows the results of "ST
     Simulation Result for Stanley Control Algorithm
   </p>
 </div>
+
 ## Path Planning with Obstacle Avoidance
 
 ## License
