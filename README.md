@@ -137,7 +137,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Tumucin : baltumucin34@gmail.com
 
-Project Link: [Arcore - Motion - Tracking](https://github.com/Tumucin/Arcore-Motion-Tracking)
+Project Link: [Path-Planning-Controller-ROSbot-MATLAB](https://github.com/Tumucin/Path-Planning-Controller-ROSbot-MATLAB)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
