@@ -63,6 +63,7 @@ As we can from Figure 1, there are several waypoints which we give them to algor
 
 ## Controller
 You can read the full report of CONTROLLER task. [REPORT](https://drive.google.com/drive/u/1/folders/1hVpCoH-6AStXR6jbHeMdJpH4t_2Ol69Y)
+
 First main subsystem of the whole algorithm is "CONTROLLER" part. It consists of 2 componenets. First one is "Longitudional Controller" and the second one is "Lateral Controller". Longitudional Controller basically controls the linear speed of the ROSbot while Lateral Controller controls the steering angle of the ROSbot to follow the generated path in a smooth way. You can find the DC motor which was used in this project by clicking [here](https://husarion.com/manuals/rosbot/). In the following parts, I will give more informations about "Lateral" and "Longitudional" controller.
 ### Longitudinal Controller
 The main goal of "Longitudional Controller" is to control the angular velocity of the DC motor for a given reference angular velocity. And the controller is designed according to the following characteristics.
