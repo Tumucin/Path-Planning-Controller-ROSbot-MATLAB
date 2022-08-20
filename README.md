@@ -70,6 +70,7 @@ The main goal of "Longitudional Controller" is to control the angular velocity o
 - Zero steady-state error
 - Settling time= 3.5 seconds
 - No overshoot
+Using the parameters listed in the [REPORT](https://drive.google.com/drive/u/1/folders/1hVpCoH-6AStXR6jbHeMdJpH4t_2Ol69Y) and technical specifications, P and I coefficients are calculated.
 Figure 2 shows the main block diagram of this controller.
 <br />
 <div align="center">
@@ -82,6 +83,26 @@ Figure 2 shows the main block diagram of this controller.
 </div>
 
 To make it simplier, I converted angular velocity to linear velocity. So when we give 1 to this controlling algorithm as an input, the velocity of ROSbot become 1m/s. You can set different values of velocity by channing "RefLongVel" variable in MotionPlanningv15.slx-->CONTROL-PATH-->RefLongVel
+
+Figure 3 and figure 4 shows the step response and power response respectively.
+<br />
+<div align="center">
+  <a href="https://github.com/Tumucin/Path-Planning-Controller-ROSbot-MATLAB">
+    <img src="images/Figure3.png" alt="Logo" width="700" height="200">
+  </a>
+  <p align="center">
+    Step Response
+  </p>
+</div>
+<br />
+<div align="center">
+  <a href="https://github.com/Tumucin/Path-Planning-Controller-ROSbot-MATLAB">
+    <img src="images/Figure4.png" alt="Logo" width="700" height="200">
+  </a>
+  <p align="center">
+    Power Response
+  </p>
+</div>
 ### Lateral Controller
 #### Kinematic Model
 ## Path Planning with Obstacle Avoidance
