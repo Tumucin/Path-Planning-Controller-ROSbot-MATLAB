@@ -47,7 +47,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This project aims to generate a path for given a sets of waypoints when there is a obstacle along the path and follow the generated path using controlling algorithm for [ROSbot 2](https://husarion.com/manuals/rosbot/). It consists of 2 parts called "CONTROLLER" and "PATH PLANNING". 
+This project aims to generate a path for given a sets of 2D waypoints when there is a obstacle along the path and follow the generated path using controlling algorithm for [ROSbot 2](https://husarion.com/manuals/rosbot/). For example when the algorithm is given a sets of waypoints in 2D, it generates a GLOBAL path between these waypoints and creates a LOCAL path at each time step using "LOOKAHEAD" distance. And then it follows the generated local path. It consists of 2 parts called "CONTROLLER" and "PATH PLANNING". In the following sections, I am going to describe the details of the algorithm so that you can easily understand and use it for your applications.
 <br />
 <div align="center">
   <a href="https://developers.google.com/ar/develop/fundamentals#motion_tracking">
