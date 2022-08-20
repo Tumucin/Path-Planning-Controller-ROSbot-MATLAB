@@ -105,9 +105,24 @@ Figure 3 and figure 4 shows the step response and power response respectively.
 </div>
 
 ### Lateral Controller
-
+The main goal of "Lateral Controller" is to control the steering angle of ROSbot to follow the generated path smoothly. For this purpose "STANLEY" method was used as a lateral controller algorithm. The Stanley method is the path tracking approach used by Stanford University’s autonomous
+vehicle entry in the DARPA Grand Challenge, Stanley. It is a nonlinear control law for an
+automobile to autonomously track a trajectory, provided in real-time, on rapidly varying, off-road
+terrain. You can [read](http://ai.stanford.edu/~gabeh/papers/hoffmann_stanley_control07.pdf) the paper.
 #### Kinematic Model
-
+A kinematic model for the lateral motion of a vehicle can be developed. Such a model provides a
+mathematical description of the vehicle motion without considering the forces that affect the
+motion. The equations of motion are based purely on geometric relationships governing the system.
+And for this project "BICYCLE MODEL" was used. Figure 5 shows the results of "STANLEY" algorithm.
+<br />
+<div align="center">
+  <a href="https://github.com/Tumucin/Path-Planning-Controller-ROSbot-MATLAB">
+    <img src="images/Figure5.png" alt="Logo" width="700" height="300">
+  </a>
+  <p align="center">
+    Simulation Result for Stanley Control Algorithm
+  </p>
+</div>
 ## Path Planning with Obstacle Avoidance
 
 ## License
