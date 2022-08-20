@@ -54,6 +54,9 @@
       <ul>
         <li><a href="#longitudinal-controller">Longitudinal Controller</a></li>
         <li><a href="#lateral-controller">Lateral Controller</a></li>
+          <ul>
+              <li><a href="#kinematic-model">Kinematic Model</a></li>
+          </ul>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
