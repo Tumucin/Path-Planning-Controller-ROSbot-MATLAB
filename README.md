@@ -88,7 +88,7 @@ Figure 3 and figure 4 shows the step response and power response respectively.
 <br />
 <div align="center">
   <a href="https://github.com/Tumucin/Path-Planning-Controller-ROSbot-MATLAB">
-    <img src="images/Figure3.png" alt="Logo" width="700" height="200">
+    <img src="images/Figure3.png" alt="Logo" width="700" height="350">
   </a>
   <p align="center">
     Step Response
@@ -97,7 +97,7 @@ Figure 3 and figure 4 shows the step response and power response respectively.
 <br />
 <div align="center">
   <a href="https://github.com/Tumucin/Path-Planning-Controller-ROSbot-MATLAB">
-    <img src="images/Figure4.png" alt="Logo" width="700" height="200">
+    <img src="images/Figure4.png" alt="Logo" width="700" height="300">
   </a>
   <p align="center">
     Power Response
