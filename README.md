@@ -92,6 +92,7 @@ By aligning the pose of the virtual camera that renders your 3D content with the
 ## Controller
 ### Longitudinal Controller
 ### Lateral Controller
+#### Kinematic Model
 In this secion, I am going to descrice how we can use this mobile application on our Android devices to make everything clear. So that you can easily understand and use for your applications.
 
 
