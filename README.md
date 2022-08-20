@@ -50,10 +50,10 @@
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#controller">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#longitudinal-controller">Prerequisites</a></li>
+        <li><a href="#lateral-controller">Installation</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -86,7 +86,7 @@ By aligning the pose of the virtual camera that renders your 3D content with the
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Controller
 
 In this secion, I am going to descrice how we can use this mobile application on our Android devices to make everything clear. So that you can easily understand and use for your applications.
 
