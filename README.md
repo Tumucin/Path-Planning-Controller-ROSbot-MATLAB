@@ -73,7 +73,7 @@ Figure 2 shows the main block diagram of this controller.
 <br />
 <div align="center">
   <a href="https://github.com/Tumucin/Path-Planning-Controller-ROSbot-MATLAB">
-    <img src="images/Figure2.png" alt="Logo" width="700" height="400">
+    <img src="images/Figure2.png" alt="Logo" width="700" height="200">
   </a>
   <p align="center">
     Block Diagram of Longitudional Controller
