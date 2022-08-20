@@ -103,10 +103,11 @@ Figure 3 and figure 4 shows the step response and power response respectively.
     Power Response
   </p>
 </div>
-  ### Lateral Controller
+## Lateral Controller
     aaaa
     #### Kinematic Model
 asdsadsd
+
 ## Path Planning with Obstacle Avoidance
 adsasdasd
 <!-- LICENSE -->
